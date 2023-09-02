@@ -1,13 +1,14 @@
 import Image from "next/image";
 import bg from "../public/banner.png";
+import logo from "../public/Logo.png";
 
 export default function Home() {
   return (
     <div className="bg-white justify-between ">
       <link rel="icon" href="/favicon.svg" />
-      <div className="sm:flex h-full w-full  sm:pl-24 bg-white relative">
+      <div className="sm:flex h-full w-full  sm:ml-24 bg-white relative">
         <Image
-          src="/logo.png"
+          src={logo}
           height={400}
           width={400}
           alt="logo"
