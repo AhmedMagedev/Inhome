@@ -4,7 +4,7 @@ import bg from "../public/banner.png";
 export default function Home() {
   return (
     <div className="bg-white justify-between ">
-      <link rel="icon" href="/public/favicon.svg" />
+      <link rel="icon" href="/favicon.svg" />
       <div className="sm:flex h-full w-full  sm:pl-24 bg-white relative">
         <Image
           src="/logo.png"
