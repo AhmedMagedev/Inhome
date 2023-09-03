@@ -15,7 +15,7 @@ export default function Home() {
           className="m-auto sm:m-0"
         />
       </div>
-      <div className="justify-center h-full w-full pb-16">
+      <div className="justify-center h-full w-full sm:pb-16 pb-32">
         <p className="text-center text-3xl font-Madani">... جاري العمل</p>
       </div>
       <div className="justify-bottom h-full w-full pt-36 sm:pt-16 bg-white">
