@@ -1,6 +1,6 @@
 import Image from "next/image";
 import bg from "../public/banner.png";
-import logo from "../public/Logo.png";
+import logo from "../public/Logo.svg";
 
 export default function Home() {
   return (
